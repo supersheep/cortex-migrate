@@ -1,5 +1,5 @@
 {
-  "name": "cortex-module-migrator",
+  "name": "cortex-migrate",
   "version": "0.1.0",
   "description": "migrate node module to cortex module",
   "main": "index.js",
@@ -11,19 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/supersheep/cortex-module-migrator.git"
+    "url": "git://github.com/supersheep/cortex-migrate.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/supersheep/cortex-module-migrator/issues"
+    "url": "https://github.com/supersheep/cortex-migrate/issues"
   },
   "homepage": "https://github.com/supersheep/cortex-module-migrator",
   "dependencies": {
-    "githuburl": "~0.1.6",
     "request": "~2.36.0",
     "async": "~0.9.0",
     "semver": "~2.3.1",
-    "colors": "~0.6.2"
+    "colors": "~0.6.2",
+    "tarball-extract": "0.0.3",
+    "mkdirp": "~0.5.0",
+    "commonjs-walker": "~3.0.3"
   }
 }
